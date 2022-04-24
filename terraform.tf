@@ -11,7 +11,7 @@
 # -------------------------------- WARNING --------------------------------
 
 terraform {
-  required_version = "~> 0.12" #cannot contain interpolations. Means requiered version >= 0.12 and < 0.13
+  required_version = "~> 1.1.19" #cannot contain interpolations. Means requiered version >= 0.12 and < 0.13
 }
 
 #-----------------------------------------
@@ -20,8 +20,8 @@ terraform {
 
 provider "kubernetes" {
   #Context to choose from the config file.
-  config_context = "kubernetes-admin@ditwl-k8s-01"
-  version = "~> 1.12"
+  config_context = "kubernetes-admin@k8s-cluster"
+  version = "~> 1.23.6"
 }
 
 
