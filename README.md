@@ -4,24 +4,25 @@ my terraform practices
 
 ## Install Terraform
 
-https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/gcp-get-started#install-terraform
-
+[How install](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/gcp-get-started#install-terraform)
 
 ## Learn Terraform resources
 
-https://github.com/hashicorp/learn-terraform-resources
+[Learn](https://github.com/hashicorp/learn-terraform-resources)
 
 ## Manage any infraestructure
 
-https://registry.terraform.io/browse/providers  
+[Manage](https://registry.terraform.io/browse/providers)  
 
 ## Store Remote State
 
-https://learn.hashicorp.com/tutorials/terraform/aws-remote?in=terraform/certification-associate-tutorials
+[Store](https://learn.hashicorp.com/tutorials/terraform/aws-remote?in=terraform/certification-associate-tutorials)
 
-## CLI
+## CLI Common
 
 [Terraform CLI Documentation](https://www.terraform.io/cli)
+
+```bash
 
 alias tf='terraform'
 
@@ -43,4 +44,4 @@ tf destroy
 
 tf output
 
-
+```
