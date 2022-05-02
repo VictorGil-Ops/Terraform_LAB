@@ -3,3 +3,4 @@
 .private
 *.key
 id_rsa*
+kubeconfig.*
