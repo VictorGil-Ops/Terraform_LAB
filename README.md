@@ -4,9 +4,7 @@ Terraform practices, deploy scalable Kubernetes cluster over cloud infraestructu
 
 Contains official documentation reference.
 
-&#57938; Think about costs, destroy de infraestructure!
-
-:warning:
+:warning: `Think about costs, destroy de infraestructure if you dont need!`
 
 [AWS]()
 
