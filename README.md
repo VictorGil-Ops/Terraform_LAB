@@ -6,11 +6,11 @@ Contains official documentation reference.
 
 :warning: `Think about costs, destroy de infraestructure if you dont need!`
 
-[AWS](https://github.com/VictorGil-Ops/Terraform_LAB/tree/main/aws-kubernetes-cluster)
+[AWS TF files](https://github.com/VictorGil-Ops/Terraform_LAB/tree/main/aws-kubernetes-cluster)
 
-[AZURE](https://github.com/VictorGil-Ops/Terraform_LAB/tree/main/azure-kubernetes-cluster)
+[AZURE TF files](https://github.com/VictorGil-Ops/Terraform_LAB/tree/main/azure-kubernetes-cluster)
 
-[DigitalOcean](https://github.com/VictorGil-Ops/Terraform_LAB/tree/main/digitalocean-kubernetes-cluster)
+[DigitalOcean TF files](https://github.com/VictorGil-Ops/Terraform_LAB/tree/main/digitalocean-kubernetes-cluster)
 
 ## TODO
 
