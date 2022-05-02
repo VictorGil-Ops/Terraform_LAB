@@ -18,30 +18,40 @@ my terraform practices
 
 [Store](https://learn.hashicorp.com/tutorials/terraform/aws-remote?in=terraform/certification-associate-tutorials)
 
-## CLI Common
+## CLI main commands
 
 [Terraform CLI Documentation](https://www.terraform.io/cli)
 
 ```bash
 
+# alias
 alias tf='terraform'
 
+# autocomplete enabled
 terraform -install-autocomplete
 
+# reformat your configuration in the standard style
 tf fmt
 
+# check whether the configuration is valid
 tf validate
 
+# prepare your working directory for other commands
 tf init
 
+# show changes required by the current configuration
 tf plan
 
+# create or update infrastructure
 tf apply
 
+# show the current state or a saved plan
 tf show
 
+# destroy previously-created infrastructure
 tf destroy
 
+# Show output values from your root module
 tf output
 
 ```
