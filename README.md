@@ -6,11 +6,11 @@ Contains official documentation reference.
 
 :warning: `Think about costs, destroy de infraestructure if you dont need!`
 
-[AWS]()
+[AWS](https://github.com/VictorGil-Ops/Terraform_LAB/tree/main/aws-kubernetes-cluster)
 
-[AZURE]()
+[AZURE](https://github.com/VictorGil-Ops/Terraform_LAB/tree/main/azure-kubernetes-cluster)
 
-[DigitalOcean]()
+[DigitalOcean](https://github.com/VictorGil-Ops/Terraform_LAB/tree/main/digitalocean-kubernetes-cluster)
 
 ## Install Terraform
 
