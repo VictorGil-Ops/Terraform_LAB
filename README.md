@@ -1,10 +1,20 @@
-# Terraform_LAB
+# Terraform_learning_LAB
 
-my terraform practices
+Terraform practices, deploy scalable Kubernetes cluster over cloud infraestructure.
+
+Contains official documentation reference.
+
+&#57938; Think about costs, destroy de infraestructure!
+
+[AWS]()
+
+[AZURE]()
+
+[DigitalOcean]()
 
 ## Install Terraform
 
-[How install](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/gcp-get-started#install-terraform)
+[Install](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/gcp-get-started#install-terraform)
 
 ## Learn Terraform resources
 
@@ -17,6 +27,10 @@ my terraform practices
 ## Store Remote State
 
 [Store](https://learn.hashicorp.com/tutorials/terraform/aws-remote?in=terraform/certification-associate-tutorials)
+
+## Terraform repository examples
+
+[Examples](https://github.com/hashicorp/terraform)
 
 ## CLI main commands
 

@@ -1,8 +1,8 @@
 # DigitalOcean Provider
 
-[1. PROVIDER DOC](https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs)
+[PROVIDER DOC](https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs)
 
-[2. GIT RESOURCE](https://github.com/digitalocean/terraform-provider-digitalocean
+[GIT RESOURCE](https://github.com/digitalocean/terraform-provider-digitalocean
 )
 
 ## Use a token

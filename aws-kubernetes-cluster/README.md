@@ -1,4 +1,4 @@
-# AWS EKS cluster provision
+# AWS EKS (Elastic Kubernetes Service) cluster provision
 
 [TF - EKS](https://learn.hashicorp.com/tutorials/terraform/eks)
 
