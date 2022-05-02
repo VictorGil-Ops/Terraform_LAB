@@ -1,5 +1,6 @@
 .terraform*
 *.tfstate*
+*.tfvars*
 .private
 *.key
 id_rsa*

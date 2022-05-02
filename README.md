@@ -12,6 +12,12 @@ Contains official documentation reference.
 
 [DigitalOcean](https://github.com/VictorGil-Ops/Terraform_LAB/tree/main/digitalocean-kubernetes-cluster)
 
+## TODO
+
+- Google Cloud
+- Alibaba Cloud
+- Cloud CLI`s cheatsheet
+
 ## Install Terraform
 
 [Install](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/gcp-get-started#install-terraform)

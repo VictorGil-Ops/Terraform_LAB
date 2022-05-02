@@ -4,9 +4,13 @@
 
 ## AZURE Reference
 
+[AZURE portal](https://portal.azure.com/)
+
 [AZURE DOC Index](https://docs.microsoft.com/en-us/azure/?product=popular)
 
 [AZURE CLI Reference](https://docs.microsoft.com/es-es/cli/azure/install-azure-cli)
+
+[AZURE started cloudshell](https://docs.microsoft.com/es-es/azure/developer/terraform/get-started-cloud-shell-bash?tabs=bash)
 
 [AZURE regions](https://docs.microsoft.com/en-us/azure/availability-zones/az-overview)
 
@@ -18,7 +22,20 @@
 
 3. Paste the code in a browser
 
-## AZ regions
+4. Check subscription id `az account show`
+
+5. Create a service entity `az ad sp create-for-rbac --name aks-admin --role Contributor --scopes /subscriptions/<subscription_id>`
+
+6. Create file `terraform.tfvars` with this content:
+
+```terraform
+
+appId    = "<id>"
+password = "<passwd>"
+
+```
+
+## AZ list locations
 
 Show available regions
 

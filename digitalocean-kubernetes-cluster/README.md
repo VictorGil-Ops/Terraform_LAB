@@ -1,9 +1,10 @@
 # DigitalOcean Provider
 
+[DO Portal](https://cloud.digitalocean.com/)
+
 [PROVIDER DOC](https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs)
 
-[GIT RESOURCE](https://github.com/digitalocean/terraform-provider-digitalocean
-)
+[GIT RESOURCE](https://github.com/digitalocean/terraform-provider-digitalocean)
 
 ## Use a token
 
