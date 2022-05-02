@@ -20,21 +20,21 @@
 
 In example "eks-admin"
 
-[IMAGE](https://github.com/VictorGil-Ops/Terraform_LAB/blob/main/images/1.png)
+![IMAGE](https://github.com/VictorGil-Ops/Terraform_LAB/blob/main/images/1.png)
 
 Define all `*EKS*` policies for this group
 
-[IMAGE](https://github.com/VictorGil-Ops/Terraform_LAB/blob/main/images/1-1.png)
+![IMAGE](https://github.com/VictorGil-Ops/Terraform_LAB/blob/main/images/1-1.png)
 
 2. Create a user
 
 In example "infra-admin1"
 
-[IMAGE](https://github.com/VictorGil-Ops/Terraform_LAB/blob/main/images/2.png)
+![IMAGE](https://github.com/VictorGil-Ops/Terraform_LAB/blob/main/images/2.png)
 
 3. Attach 'AdministratorAccess' policy to eks.admin group
 
-[IMAGE](https://github.com/VictorGil-Ops/Terraform_LAB/blob/main/images/3.png)
+![IMAGE](https://github.com/VictorGil-Ops/Terraform_LAB/blob/main/images/3.png)
 
 ## step by step
 
