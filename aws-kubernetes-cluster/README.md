@@ -48,7 +48,7 @@ In example "infra-admin1"
 
 `aws ec2 describe-availability-zones`
 
-3. Initializer provdider workspace
+3. Initializer provider workspace
 
 `terraform init`
 
