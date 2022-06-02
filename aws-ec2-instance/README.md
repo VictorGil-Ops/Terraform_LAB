@@ -28,7 +28,7 @@ Deploy a EC2 instance AWS provider.
 4. Create file `~/.aws/credentials`, example:
 
    ```text
-   [default]
+   [terraform]
    aws_access_key_id = access_key
    aws_secret_access_key = secret_access_key 
    ```
@@ -41,6 +41,13 @@ Deploy a EC2 instance AWS provider.
    # create private key and public key
    ssh-keygen -f free-tier-ec2-key
    ```
+
+6. Region:
+
+The default region is `us-east-1`, if you want change check two locations:
+
+* local file `~/.aws/config`
+* tf file `variables.tf`
 
 ## Build & deploy instance
 
