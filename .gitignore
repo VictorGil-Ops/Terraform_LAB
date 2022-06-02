@@ -5,3 +5,4 @@
 *.key
 id_rsa*
 kubeconfig.*
+access_key/*
