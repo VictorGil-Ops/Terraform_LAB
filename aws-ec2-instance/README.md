@@ -17,7 +17,15 @@ Deploy a EC2 instance AWS provider.
 
 1. [Install Terraform](https://learn.hashicorp.com/terraform/getting-started/install.html)
 2. [Create AWS account](https://docs.aws.amazon.com/es_es/organizations/latest/userguide/orgs_manage_accounts_create.html)
-3. Create file `~/.aws/credentials`, example:
+3. How do I get aws_access_key_id and aws_secret_access_key
+
+    1. Go to: http://aws.amazon.com/
+    2. Sign Up
+    3. Go to your AWS account overview
+    4. Account menu in the upper-right (has your name on it)
+    5. sub-menu: Security Credentials
+
+4. Create file `~/.aws/credentials`, example:
 
    ```text
    [default]
@@ -25,7 +33,7 @@ Deploy a EC2 instance AWS provider.
    aws_secret_access_key = secret_access_key 
    ```
 
-4. Create SSH key:
+5. Create SSH key:
 
    ```bash
    cd ./access_key
@@ -49,6 +57,12 @@ terraform apply
 When the infra is build, try to ssh connection:
 
 `ssh -i ./access_key/free-tier-ec2-key ubuntu@[EC2 public IP]`
+
+Extract EC2 public IP
+
+`aws ec2 describe-instances --filters "Name=instance-type,Values=t2.micro" --query "Reservations[].Instances[].InstanceId"`
+
+`aws ec2 describe-instances --instance-ids {YOUR_ID_HERE} --query 'Reservations[*].Instances[*].PublicIpAddress' --output text`
 
 ## Remember
 

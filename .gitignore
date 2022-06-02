@@ -3,6 +3,7 @@
 *.tfvars*
 .private
 *.key
+*.pub
 id_rsa*
 kubeconfig.*
 access_key/*
