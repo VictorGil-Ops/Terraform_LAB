@@ -18,7 +18,7 @@ export DO_TOKEN="<token>"
 
 ## Availabe Kubernetes versions
 
-- [show availabe kubernetes versions:](https://docs.digitalocean.com/products/kubernetes/changelog/)
+- [show availabe kubernetes versions](https://docs.digitalocean.com/products/kubernetes/changelog/)
 - [slugs](https://slugs.do-api.dev/)
 
 ```bash
