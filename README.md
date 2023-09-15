@@ -2,6 +2,8 @@
 
 Terraform practices, deploy scalable Kubernetes cluster over cloud infraestructure.
 
+[terraform-infraestructura.readthedocs.io](https://terraform-infraestructura.readthedocs.io/es/latest/introduccion/index.html)
+
 Contains official documentation reference.
 
 :warning: `Think about costs, destroy de infraestructure if you dont need!`
@@ -43,6 +45,7 @@ Contains official documentation reference.
 ## CLI main commands
 
 [Terraform CLI Documentation](https://www.terraform.io/cli)
+
 
 ```bash
 

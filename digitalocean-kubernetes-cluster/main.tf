@@ -2,7 +2,7 @@
 resource "digitalocean_kubernetes_cluster" "secofruit" {
   name    = "secofruit"
   region  = "fra1"
-  version = "1.22.8-do.1"
+  version = "1.27.4-do.0" # slugs versions https://slugs.do-api.dev/
 
   node_pool {
     name       = "secofruit-nodes"
